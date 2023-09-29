@@ -14,9 +14,9 @@ table {
 }
 
 td {
-    width: 14%;
-    height: 150px; /* Adjust the height of the boxes as desired */
-    border: 1px solid #636363;
+    width: 12vw;
+    height: 12vh; /* Adjust the height of the boxes as desired */
+    border: 2px solid #636363;
     position: relative; /* Create an absolute positioning context */
     font-size: 1vw; /* Font size */
     font-weight: bold; /* Bold text */
@@ -58,13 +58,13 @@ body {
 
 /* Style the main content */
 h1 {
-    font-size: 40px;
+    font-size: clamp(18px, 4vw, 50px);
     margin-top: 20px;
     color: #000000; /* White text color for the heading */
 }
 
 p {
-    font-size: 30px;
+    font-size: clamp(15px, 3vw, 25px);
     line-height: 2;
     margin-top: 10px;
     padding: 0 20px;
@@ -104,7 +104,7 @@ a {
     color: #d1d1d1;
     text-align: center;
     transition: 500ms;
-    font-size: 20px;
+    font-size: 2vw;
     flex: 1;
     display: flex; /* Use flex for vertical centering */
     align-items: center; /* Vertically center the text */
