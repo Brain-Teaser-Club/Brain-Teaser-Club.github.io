@@ -20,13 +20,13 @@ body {
 
 /* Style the main content */
 h1 {
-    font-size: 2vw;
+    font-size: 3vw;
     margin-top: 20px;
     color: #000000; /* White text color for the heading */
 }
 
 p {
-    font-size: 1vw;
+    font-size: 2vw;
     line-height: 2;
     margin-top: 10px;
     padding: 0 20px;
@@ -56,7 +56,7 @@ section {
 .navBar {
     display: flex;
     background-color: #363636;
-    height: 55px;
+    height: 7vh;
     padding: 0px;
 }
 
@@ -66,7 +66,7 @@ a {
     color: #d1d1d1;
     text-align: center;
     transition: 500ms;
-    font-size: 20px;
+    font-size: 2vw;
     flex: 1;
     display: flex; /* Use flex for vertical centering */
     align-items: center; /* Vertically center the text */
@@ -88,7 +88,7 @@ a:hover {
 }
 
 .small-club-logo {
-    width: 100px; /* Adjust the width as needed */
+    width: 10vw; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
     position: absolute; /* Position absolutely within the header */
     top: 70px; /* Adjust the top position for vertical alignment */
@@ -106,7 +106,7 @@ a:hover {
 }
 .firstName{
   position:absolute;
-  width:24.5%;
+  width:24.5vw;
   height:40px;
   left:25%;
   top:10%;
@@ -118,7 +118,7 @@ a:hover {
 }
 .lastName{
   position:absolute;
-  width:24.5%;
+  width:24.5vw;
   height:40px;
   left:50.5%;
   top:10%;
@@ -131,7 +131,7 @@ a:hover {
 
 .Email{
   position:absolute;
-  width:50%;
+  width:50vw;
   height:40px;
   left:25%;
   top:20%;
@@ -145,7 +145,7 @@ a:hover {
 .description{
   position:absolute;
   resize:none;
-  width:50%;
+  width:50vw;
   height:100px;
   top:30%;
   left:25%;
@@ -158,7 +158,7 @@ a:hover {
 
 input[type='submit']{
   position:absolute;
-  width:50.5%;
+  width:50vw;
   height:40px;
   top:55%;
   left:25%;
@@ -180,6 +180,6 @@ input[type='submit']:hover{
 }
 
 img{
-  height:30vh;
-  width:30vh;
+  height:30vw;
+  width:30vw;
 }
