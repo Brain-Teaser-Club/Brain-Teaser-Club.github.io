@@ -20,13 +20,13 @@ body {
 
 /* Style the main content */
 h1 {
-    font-size: 40px;
+    font-size: 2vw;
     margin-top: 20px;
     color: #000000; /* White text color for the heading */
 }
 
 p {
-    font-size: 30px;
+    font-size: 1vw;
     line-height: 2;
     margin-top: 10px;
     padding: 0 20px;
@@ -179,4 +179,7 @@ input[type='submit']:hover{
   transition: 400ms ease;
 }
 
-
+img{
+  height:30vh;
+  width:30vh;
+}
