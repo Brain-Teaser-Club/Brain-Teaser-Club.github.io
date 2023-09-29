@@ -18,7 +18,7 @@ td {
     height: 150px; /* Adjust the height of the boxes as desired */
     border: 1px solid #636363;
     position: relative; /* Create an absolute positioning context */
-    font-size: 18px; /* Font size */
+    font-size: 1vw; /* Font size */
     font-weight: bold; /* Bold text */
 }
 
@@ -94,7 +94,7 @@ section {
 .navBar {
     display: flex;
     background-color: #363636;
-    height: 55px;
+    height: 7vw;
     padding: 0px;
 }
 
@@ -126,7 +126,7 @@ a:hover {
 }
 
 .small-club-logo {
-    width: 100px; /* Adjust the width as needed */
+    width:10vw; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
     position: absolute; /* Position absolutely within the header */
     top: 70px; /* Adjust the top position for vertical alignment */
@@ -134,7 +134,7 @@ a:hover {
 }
 
 .month-header {
-  font-size: 50px; /* Font size for the header */
+  font-size: 10vw; /* Font size for the header */
   font-weight: bold; /* Bold text for the header */
   text-align:center;
   margin-top:50px;
@@ -167,4 +167,5 @@ th {
     background-color: #333; /* Background color for day names */
     color: white; /* Text color for day names */
     padding: 10px; /* Adjust the padding as needed */
+    font-size:1.5vw;
 }
